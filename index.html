@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CSS ASSIGMENT NO 7 BY TAILWIND </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Ga+Maamli&family=Jersey+10&family=Nova+Round&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+        .p-10{
+            font-family: "Satisfy", cursive;
+        }
+        span{
+            font-family: "Satisfy", cursive;   
+        }
+        .paragraph{
+            font-family: "Edu VIC WA NT Beginner", cursive;
+        }
+       body{
+        background-color: rgb(196, 164, 132);
+       }
+       #para{
+        font-family: "Nova Round", system-ui;
+        font-size: 18px;
+       }
+       @media screen and (max-width:280){
+        body{
+          display: flex;
+          flex-direction: column;
+        }
+       }
+        </style>
+</head>
+<body>
+    <div class="container w-full ml-85 text-center m-auto">
+        <div class="p-10 text-5xl mt-3"><h1>“CareerLaunch: Your Path to Success”</h1></div>
+        <div class="paragraph text-3xl font-extralight mt-5"><p>Hello newbie! Welcome to <span class="text-rose-950">“CareerLaunch: Your Path to Success”</span><br>way of Life .What can we help you....</p></div>
+        
+<div class="flex justify-between mt-5" >
+<div class="relative flex flex-col mt-6 text-gray-700 bg-stone-200 shadow-md bg-clip-border rounded-xl w-96">
+  <div
+    class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQl1IUfmVV8PxnCYGIvtyuoXD9goqf8zvCbQ&s" width="350px"  style="margin-top: 30px; border-radius:20px; ">
+  </div>
+  <div class="p-6">
+    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+      Elon Musk
+    </h5>
+    <p id="para" class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+        "Elon Musk, a visionary entrepreneur, is renowned for his groundbreaking work in technology and space exploration. As the CEO of Tesla and SpaceX, he has revolutionized the electric vehicle industry and pushed the boundaries of space travel
+    </p>
+  </div>
+  <div class="p-6 pt-0">
+    <button
+      class="align- select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+      type="button" style="float: left; margin-left: 30px; background-color: cadetblue;">
+      Read More
+    </button>
+    <button
+    class="align- select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+    type="button" style="float: left; margin-left: 30px ; background-color:darkkhaki;">
+    Click here
+  </button>
+  </div></div> 
+  
+  <div class="relative flex flex-col mt-6 text-gray-700 bg-stone-200 shadow-md bg-clip-border rounded-xl w-96">
+    <div
+      class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+      <img
+        src="data:image/jpeg;base64,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" width="350px"  style="margin-top: 30px; border-radius:20px;">
+    </div>
+    <div class="p-6">
+      <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+        Bill Gates
+      </h5>
+      <p id="para" class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+         "Bill Gates, a pioneering entrepreneur and philanthropist, co-founded Microsoft, the world's leading software company, which revolutionized personal computing. His vision and leadership helped bring computers into 
+      </p>
+    </div>
+    <div class="p-6 pt-0">
+      <button
+        class="align- select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+        type="button" style="float: left; margin-left: 30px; background-color: cadetblue;">
+        Read More
+      </button>
+      <button
+      class="align- select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+      type="button" style="float: left; margin-left: 30px ; background-color:darkkhaki;">
+      Click here
+    </button>
+    </div></div>
+
+    <div class="relative flex flex-col mt-6 text-gray-700 bg-stone-200 shadow-md bg-clip-border rounded-xl w-96">
+        <div
+          class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+          <img
+            src="data:image/jpeg;base64,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" width="350px"  style="margin-top: 30px; border-radius:20px; ">
+        </div>
+        <div class="p-6">
+          <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            Mukesh ambani
+          </h5>
+          <p id="para" class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+            "Mukesh Ambani, an influential business magnate, is the chairman and largest shareholder of Reliance Industries, one of India's largest and most diversified conglomerates. Under his leadership, Reliance has expanded its reach into various sectors,
+          </p>
+        </div>
+        <div class="p-6 pt-0">
+          <button
+            class="align- select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+            type="button" style="float: left; margin-left: 30px; background-color: cadetblue;">
+            Read More
+          </button>
+          <button
+          class="align- select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+          type="button" style="float: left; margin-left: 30px ; background-color:darkkhaki;">
+          Click here
+        </button>
+        </div></div>
+</div>
+        
+            
+
+  <div></body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
